@@ -1,0 +1,323 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,li,a,button,input,
+label {
+    font-family: 'Avenir', sans-serif;
+}
+
+header {
+    background-color: #DCF2EE;
+    color: #fff;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-space {
+    background-color: #DCF2EE;
+    padding: 200px;
+    position: relative;
+}
+
+
+.hero-space img {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.container {
+    outline: 1px solid #702632; 
+    padding: 0;  
+}
+
+.logo {
+    padding-right: 20px;
+}
+
+.logo img {
+    height: 200px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 60px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #702632;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Avenir', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav ul li:nth-child(1) a {
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.text-container {
+    position: absolute;
+    top: 35%;
+    left: 800px;
+    transform: translateY(-50%);
+}
+
+body {
+    background-color: #EEF8F4;
+    margin: 20px;
+}
+
+.text-container p {
+    margin: 0;
+    font-family: 'Avenir', sans-serif;
+    font-weight: medium;
+    font-size: 50px;
+    color: #000000;
+}
+
+.rectangle {
+    width: 550px;
+    height: 10px;
+    background-color: #702632;
+}
+
+.text-container p:first-child {
+    font-size: 50px;
+}
+
+.text-container p:last-child {
+    font-size: 25px;
+    color: #702632;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer img {
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: -150px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collaborate {
+    font-family: 'Avenir', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #702632;
+}
+
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.line {
+    width: 740px;
+    border-top: 2px solid #702632;
+    margin-bottom: 10px;
+}
+
+.form-label {
+    padding-left: 350px;
+}
+
+.form-label {
+    margin-bottom: 20px;
+}
+
+.btn-primary1 {
+    width: 300px;
+    height: 45px;
+    background-color: #702632;
+    color: #CEE5E0;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #702632;
+    color: #CEE5E0;
+}
+
+.footer-text {
+    text-align: center;
+    color: #702632;
+    font-family: 'Avenir', sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.footer-text1 {
+    text-align: center;
+    color: #702632;
+    font-family: 'Avenir', sans-serif;
+    font-weight: medium;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.footer-text2 {
+    text-align: center;
+    color: #702632;
+    font-family: 'Avenir', sans-serif;
+    font-weight: medium;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.footer-text1,
+.footer-text2 {
+    display: inline;
+    margin: 20px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-list1,
+.skills-list2,
+.skills-list3,
+.skills-list4,
+.skills-list5 {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skills-list1 li,
+.skills-list2 li,
+.skills-list3 li,
+.skills-list4 li,
+.skills-list5 li {
+    margin-bottom: 10px;
+}
+
+.skillSection {
+    margin: 0 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.skillSection h3 {
+    color: #702632;
+}
+
+.mySkills h1 {
+    color: #702632;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.mySkills h1,
+.CaseStudies h1 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.CaseStudies {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.CaseStudies h1 {
+    color: #702632;
+    text-align: center;
+}
+
+.CaseStudies h4 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #702632;
+    margin-top: 60px;
+}
+
+.CaseStudies h5 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #702632;
+}
+
+.CaseStudies p {
+    text-align: center;
+    font-weight: oblique;
+    line-height: 1.4em;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.btn-primary2 {
+    width: 300px;
+    height: 45px;
+    background-color: #702632;
+    color: #CEE5E0;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.btn-primary3 {
+    width: 300px;
+    height: 45px;
+    background-color: #702632;
+    color: #CEE5E0;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-bottom: -25px;
+    margin-top: 20px;
+    font-weight: 500;
+
+}
+
+.project-image1 {
+    width: 350px;
+    height: auto;
+}
+
+.project-image2 {
+    width: 350px;
+    height: auto;
+}
